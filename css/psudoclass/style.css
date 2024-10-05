@@ -1,0 +1,28 @@
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color aqua;
+}
+a:active{
+    color: green;
+}
+
+li:nth-child(even){
+    color: blueviolet;
+}
+
+body::after{
+    content: "This is psudo element";
+}
+
+p::selection{
+    color: aliceblue;
+    background-color: brown;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    opacity: .6;
+}

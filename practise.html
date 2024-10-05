@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise HTMl </title>
+    
+    <link rel="shortcut icon" href="html-5.png" type="image/x-icon">
+</head>
+<body>
+    <img src="html-5.png" alt="HTML-5 Picture">
+    <br>
+    <a href="https://www.programming-hero.com" target="_blank">Programming Hero Website</a>
+    <br><br>
+
+    <table border="1">
+        <caption>To create an html file as "table.html"</caption>
+        <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="4">Seminar</th>
+        
+    </tr>
+
+    <tr>
+        <th colspan="2">shedule</th>
+        <th rowspan="2">Topic</th>
+    </tr>
+    <tr>
+        <th>Begin</th>
+        <th>End</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2" style="background-color: rgb(201, 201, 145);">8:00 a.m</td>
+        <td rowspan="2" style="background-color: rgb(168, 129, 204);">5:00 p.m</td>
+        <td colspan="2">Instroduction to XML</td>
+        
+    </tr>
+    <tr>
+        <td colspan="2">Validity DTD and Relax NG</td>
+    </tr>
+    
+    <td rowspan="3">Tuesday</td>
+    <td style="background-color: rgb(214, 214, 153);">8:00 a.m</td>
+    <td style="background-color: rgb(216, 216, 147);">11:00 a.m</td>
+    <td rowspan="1">Xpath</td>
+</tr>
+<tr>
+    <td style="background-color: rgb(204, 204, 134);">11:00 a.m</td>
+    <td style="background-color: rgb(152, 219, 197);">2:00 p.m</td>
+    <td rowspan="2">XSL Transformation</td>
+    
+    
+</tr>
+    
+    <td style="background-color: rgb(147, 212, 191);">2:00 p.m</td>
+    <td style="background-color: rgb(183, 147, 216);">5:00 P.m</td>
+
+    
+
+<tr>
+    <td>Wednesday</td>
+    <td style="background-color: rgb(221, 221, 167);">8:00 a.m</td>
+    <td style="background-color: rgb(171, 132, 207);">12:00 p.m</td>
+    <td>XSl Formating Object</td>
+</tr>
+
+    </table>
+
+    <ol type="1">
+    <li>rice</li>
+    <li>meet</li>
+    <ul style="list-style-type:armenian;">
+        <li>cow</li>
+        <li>goat</li>
+        <li>chiken</li>
+    </ul>
+    <li>potato</li>
+    <li>vegetable</li>
+    </ol>
+    <br>
+
+
+    <iframe src="https://www.programming-hero.com" height="500px" width="60%" name="Hablu-Programmer"></iframe>
+
+    <br><br>
+
+    <a href="https://www.hablu-programmer.com" target="Hablu-Programmer">See Hablu website</a>
+
+    <br><br><br>
+   <!--
+    <button type="button" onclick="document.getElementById('sdate').innerHTML=Date()">
+        showdate
+    </button>
+     <p id="sdate"></p>
+-->
+
+                <button type="button" onclick="showdate()">
+        Show Date
+     </button>
+    <p id="sdate"></p>
+
+    <script>
+        function showdate(){
+            document.getElementById('sdate').innerHTML = Date();
+        }
+    </script>
+
+
+
+
+
+    
+</body>
+</html>

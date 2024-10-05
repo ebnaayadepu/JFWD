@@ -1,0 +1,25 @@
+#wi{
+    border: 5px solid red;
+   outline: 10px solid green;
+
+}
+#p1{
+    color: blue;
+    background-color: black;
+    text-align: justify;
+    direction: ltr;
+}
+h1{
+    text-decoration: underline dotted brown 10px ;
+   text-transform: uppercase;
+
+}
+#p2{
+    text-indent: 15px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.8;
+}
+#shado{
+    text-shadow: 2px 2px 5px red;
+}

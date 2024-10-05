@@ -1,0 +1,15 @@
+.banner{
+    background-color: grey;
+    height: 300px;
+    width: 100%;
+    /* background-image: url(hablu.png),url(code.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center,center;
+    background-size: 30% cover; 
+
+    background-image: linear-gradient(to right, red,yellow,green,blue,violet);
+
+    background-image:radial-gradient(circle,red,green,yellow);*/
+    background-image: conic-gradient(red 0deg,red 90deg,green 90deg,green 180deg,blue 180deg,blue 270deg,yellow 270deg,yellow 360deg);
+    border-radius:50%;
+}

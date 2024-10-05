@@ -1,0 +1,43 @@
+.parent{
+  background-color: violet;
+  position: relative;
+
+}
+.child-one{
+ background-color: blue; 
+ position: relative; 
+  left: 50px;
+
+}
+.child-two{
+    background-color: red;
+    position: fixed;
+    left: 60px;
+
+}
+.child-three{
+    background-color: rgb(139, 214, 139);
+    position: sticky;
+    top: 0;
+
+}
+.green{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+}
+.red{
+    height: 300px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    position: absolute;
+    background-color: red;
+    border-radius:50% ;
+    margin:auto ;
+    
+}
